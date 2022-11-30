@@ -9,7 +9,7 @@ console.log(" ")
 
 const pil = input.question("Silahkan pilih nomor: ");
 
-if ( pil =  1 ) {
+if ( pil ==  1 ) {
     const jum1 = input.question("Masukan angka ke 1: ");
     const jum2 = input.question("Masukan angka ke 2: "); 
     
@@ -17,5 +17,5 @@ if ( pil =  1 ) {
     const inputanJum2 = jum2;
     const hasilJum = inputanJum1 + inputanJum2;
 
-    console.log("Hasil" +hasilJum);
+    console.log("Hasil Dari Penjumlahan " + inputanJum1 + " Dan " + inputanJum2 + " Adalah " + hasilJum);
 } 
