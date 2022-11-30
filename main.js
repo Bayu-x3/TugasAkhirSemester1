@@ -18,4 +18,18 @@ if ( pil ==  1 ) {
     const hasilJum = inputanJum1 + inputanJum2;
 
     console.log("Hasil Dari Penjumlahan " + inputanJum1 + " Dan " + inputanJum2 + " Adalah " + hasilJum);
-} 
+} if ( pil == 2 ) {
+    const peng1 = input.questionInt("Masukan angka ke 1: ");
+    const peng2 = input.questionInt("Masukan angka ke 2: "); 
+    const inputanPeng1 = peng1;
+    const inputanPeng2 = peng2;
+    const hasilPeng = inputanPeng1 - inputanPeng2;
+    console.log("Hasil Dari Pengurangan " + inputanPeng1 + " Dan " + inputanPeng2 + " Adalah " + hasilPeng);
+} if ( pil == 3 ) {
+    const Per1 = input.questionInt("Masukan angka ke 1: ");
+    const Per2 = input.questionInt("Masukan angka ke 2: "); 
+    const inputanPer1 = Per1;
+    const inputanPer2 = Per2;
+    const hasilPer = inputanPer1 * inputanPer2;
+    console.log("Hasil Dari Perkalian " + inputanPer1 + " Dan " + inputanPer2 + " Adalah " + hasilPer);
+}
