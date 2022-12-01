@@ -39,4 +39,6 @@ if ( pil ==  1 ) {
     const inputanPem2 = Pem2
     const hasilPem = inputanPem1 / inputanPem2;
     console.log("Hasil Dari Pembagian " + inputanPem1 + " Dan " + inputanPem2 + " Adalah " + hasilPem);
+} else {
+    console.log("salah")
 }
