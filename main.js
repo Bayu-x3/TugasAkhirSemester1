@@ -7,11 +7,11 @@ console.log(       "4. Pembagian          ");
 console.log("-----------------------------");
 console.log(" ")
 
-const pil = input.question("Silahkan pilih nomor: ");
+const pil = input.questionInt("Silahkan pilih nomor: ");
 
 if ( pil ==  1 ) {
-    const jum1 = input.question("Masukan angka ke 1: ");
-    const jum2 = input.question("Masukan angka ke 2: "); 
+    const jum1 = input.questionInt("Masukan angka ke 1: ");
+    const jum2 = input.questionInt("Masukan angka ke 2: "); 
     
     const inputanJum1 = jum1;
     const inputanJum2 = jum2;
@@ -32,4 +32,11 @@ if ( pil ==  1 ) {
     const inputanPer2 = Per2;
     const hasilPer = inputanPer1 * inputanPer2;
     console.log("Hasil Dari Perkalian " + inputanPer1 + " Dan " + inputanPer2 + " Adalah " + hasilPer);
+} if (pil == 4) {
+    const Pem1 = input.questionInt("Masukan angka ke 1: ");
+    const Pem2 = input.questionInt("Masukan angka ke 2: ");
+    const inputanPem1 = Pem1;
+    const inputanPem2 = Pem2
+    const hasilPem = inputanPem1 / inputanPem2;
+    console.log("Hasil Dari Pembagian " + inputanPem1 + " Dan " + inputanPem2 + " Adalah " + hasilPem);
 }
