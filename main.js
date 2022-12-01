@@ -1,11 +1,18 @@
 const input = require("readline-sync");
-console.log("-----------------------------");
-console.log(       "1. Penjumalahan       ");
-console.log(       "2. Pengurangan        ");
-console.log(       "3. Perkalian          ");
-console.log(       "4. Pembagian          ");
-console.log("-----------------------------");
-console.log(" ")
+ console.log(" ")
+    console.log("██╗░░██╗░█████╗░██╗░░░░░██╗░░██╗██╗░░░██╗██╗░░░░░░█████╗░████████╗░█████╗░██████╗░")
+    console.log("██║░██╔╝██╔══██╗██║░░░░░██║░██╔╝██║░░░██║██║░░░░░██╔══██╗╚══██╔══╝██╔══██╗██╔══██╗")
+    console.log("█████═╝░███████║██║░░░░░█████═╝░██║░░░██║██║░░░░░███████║░░░██║░░░██║░░██║██████╔╝")
+    console.log("██╔═██╗░██╔══██║██║░░░░░██╔═██╗░██║░░░██║██║░░░░░██╔══██║░░░██║░░░██║░░██║██╔══██╗")
+    console.log("██║░╚██╗██║░░██║███████╗██║░╚██╗╚██████╔╝███████╗██║░░██║░░░██║░░░╚█████╔╝██║░░██║")
+    console.log("╚═╝░░╚═╝╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝░╚═════╝░╚══════╝╚═╝░░╚═╝░░░╚═╝░░░░╚════╝░╚═╝░░╚═╝")
+    console.log("=================================")
+    console.log("1. Penjumalahan       ");
+    console.log("2. Pengurangan        ");
+    console.log("3. Perkalian          ");
+    console.log("4. Pembagian          ");
+    console.log("=================================");
+    console.log(" ")
 
 const pil = input.questionInt("Silahkan pilih nomor: ");
 
@@ -39,6 +46,8 @@ if ( pil ==  1 ) {
     const inputanPem2 = Pem2
     const hasilPem = inputanPem1 / inputanPem2;
     console.log("Hasil Dari Pembagian " + inputanPem1 + " Dan " + inputanPem2 + " Adalah " + hasilPem);
-} else {
-    console.log("salah")
+} if (pil > 4) {
+    console.log("Wrong Input")
+} if (pil < 1) {
+    console.log("Wrong Input")
 }
