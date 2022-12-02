@@ -1,5 +1,6 @@
 const input = require("readline-sync");
 function index() {
+    console.clear()
     console.log(" ")
     console.log("██╗░░██╗░█████╗░██╗░░░░░██╗░░██╗██╗░░░██╗██╗░░░░░░█████╗░████████╗░█████╗░██████╗░")
     console.log("██║░██╔╝██╔══██╗██║░░░░░██║░██╔╝██║░░░██║██║░░░░░██╔══██╗╚══██╔══╝██╔══██╗██╔══██╗")
@@ -14,7 +15,7 @@ function index() {
     console.log("         4. Pembagian          ");
     console.log("=================================");
     console.log(" ")
-    pil = input.questionInt("Silahkan pilih nomor: ");
+    pil = input.questionInt("root@pilih: ");
     if (pil === 1) {
         plus();
         pl();
@@ -29,6 +30,7 @@ function index() {
         pb();
     } else {
         console.log("Wrong Input")
+        index();
     }
 } index();
 function plus() {
@@ -42,9 +44,9 @@ function plus() {
     const hai = input.question("Ingin melanjutkan penjumlahan? y/n/m  ");
     if (hai === "y") {
         plus();
-    } if (hai === "n") {
+    } else if (hai === "n") {
         return;
-    } if (hai === "m") {
+    } else if (hai === "m") {
         index();
     } else {
         pl();
@@ -60,9 +62,9 @@ function plus() {
         const hai1 = input.question("Ingin melanjutkan pengurangan? y/n/m  ");
         if (hai1 == "y") {
             mines();
-        } if (hai1 == "n") {
+        } else if (hai1 == "n") {
             return;
-        } if (hai1 == "m") {
+        }else if (hai1 == "m") {
             index();
         } else {
             pn();
@@ -78,9 +80,9 @@ function plus() {
             const hai3 = input.question("Ingin melanjutkan perkalian y/n/m  ");
             if (hai3 == "y") {
                 kali();
-            } if (hai3 == "n") {
+            } else if (hai3 == "n") {
                 return;
-            } if (hai3 == "m") {
+            } else if (hai3 == "m") {
                 index();
             } else {
                 pk();
@@ -96,9 +98,9 @@ function plus() {
                 const hai4 = input.question("Ingin melanjutkan pembagian y/n/m  ");
           if (hai4 == "y") {
                     bagi();
-                } if (hai4 == "n") {
+                } else if (hai4 == "n") {
                     return;
-                } if (hai4 == "m") {
+                } else if (hai4 == "m") {
                     index();
                 }  else {
                     pb();
