@@ -1,3 +1,7 @@
+// Membuat kalkulator sederhana
+// Kelompok 9
+// Martasya
+// Bayu Candra Yudistira
 const input = require("readline-sync");
 function index() {
     console.clear()
