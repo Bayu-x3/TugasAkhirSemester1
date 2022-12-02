@@ -8,7 +8,7 @@
 - Menginstall package readline-sync ( npm install readline-sync )
 - jalankan program
 - Memilih nomor sesuai yang ada di pilihan
-- Jika ada inputan y/n/m kalian pilih saja ( y = yes, n = no, m = menu )
+- Jika ada inputan y/n/m kalian pilih saja ( y = yes, n = no, m = menu awal )
 
 # Author
 ```bash
