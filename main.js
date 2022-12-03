@@ -48,9 +48,9 @@ function plus() {
     const hai = input.question("Ingin melanjutkan penjumlahan? y/n/m  ");
     if (hai === "y") {
         plus();
-    } else if (hai === "n") {
+    } if (hai === "n") {
         return;
-    } else if (hai === "m") {
+    } if (hai === "m") {
         index();
     } else {
         pl();
@@ -66,9 +66,9 @@ function plus() {
         const hai1 = input.question("Ingin melanjutkan pengurangan? y/n/m  ");
         if (hai1 == "y") {
             mines();
-        } else if (hai1 == "n") {
+        }  if (hai1 == "n") {
             return;
-        }else if (hai1 == "m") {
+        } if (hai1 == "m") {
             index();
         } else {
             pn();
@@ -84,9 +84,9 @@ function plus() {
             const hai3 = input.question("Ingin melanjutkan perkalian y/n/m  ");
             if (hai3 == "y") {
                 kali();
-            } else if (hai3 == "n") {
+            }  if (hai3 == "n") {
                 return;
-            } else if (hai3 == "m") {
+            }  if (hai3 == "m") {
                 index();
             } else {
                 pk();
@@ -102,9 +102,9 @@ function plus() {
                 const hai4 = input.question("Ingin melanjutkan pembagian y/n/m  ");
           if (hai4 == "y") {
                     bagi();
-                } else if (hai4 == "n") {
+                }  if (hai4 == "n") {
                     return;
-                } else if (hai4 == "m") {
+                }  if (hai4 == "m") {
                     index();
                 }  else {
                     pb();
